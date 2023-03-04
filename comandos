@@ -1,0 +1,31 @@
+git push --set-upstream: para añadir cosas a un repositorio y crear una nueva rama en ese repo remoto
+git branch: para saber en que rama me encuentro
+git commit: para añadir algo a una rama
+git add * o .: para añadir ficheros al staging
+git remote: para ver los repos remotos
+git fetch: sincroniza la carpeta local .git con la carpeta .git del remoto
+git checkout: para moverme entre ramas
+git checkout -b: para crear una rama y moverme a ella 
+git stash list: para ver los stash que tengo
+git stash pop: para sacar un stash
+git stash save "": para ponerle un nombre al stash 
+git commit -a: hace lo del git add y el git commit combinado pero solo los cambios que no estan siendo 
+controlados por el sistema de control de version
+git commit -am: hace lo del git add y el git commit combinado y ademas pone el mensaje
+git config --global credential.helper store: para guardar la contraseña y que no me la este pidiendo
+git push: para mandar datos a un repo
+git pull: para traer datos de un repo
+git reset --hard: reseate el repo desde el ultimo commit
+git remote rm "nombre": para borrar un repo
+git remote add "nombre""URL del repo": para añadir un repositoria al local
+git init: para crear un repo desde la terminal
+git commit --amend:
+git ls-files:
+
+cuando un fichero no esta vinculado a ninguna rama lo queda flotando entre las ramas y
+lo puedo arrastrar conmigo si me muevo entre ramas
+
+git init: para crear un repo con una carpeta .git en esa carpeta se guarda el repo(commits), el area de staging y la configuracion del proyecto
+git config user.name "": para poner el nombre
+git congi user.email "": para poner el email
+git usa esa informacion para identificar al autor de todos los cambios desde mi ordenador
